@@ -11,5 +11,5 @@ def generate_random_numbers(count, start=1, end=100):
 # Main part of the script
 if __name__ == "__main__":
     num_list = generate_random_numbers(5)
-    print(f"Generated dummy list of numbers: {num_list}")
+    print(f"Generated dummy random: {num_list}")
     print(f"The first number is: {num_list[0]}")
