@@ -11,5 +11,5 @@ def generate_numbers(count, start=1, end=100):
 # Main part of the script
 if __name__ == "__main__":
     num_list = generate_numbers(5)
-    print(f"Generate numbers: {num_list}")
+    print(f"Generate numbers list: {num_list}")
     print(f"The first number is: {num_list[0]}")
