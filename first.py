@@ -6,7 +6,7 @@ def generate_numbers(count, start=1, end=100):
     numbers = []
     for _ in range(count):
         numbers.append(random.randint(start, end))
-        print(f"insideloop")
+        print(f"looping nicely hre")
     return numbers
 
 # Main part of the script
